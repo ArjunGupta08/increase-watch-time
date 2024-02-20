@@ -7,12 +7,16 @@ import android.os.Looper
 import android.widget.EditText
 import androidx.appcompat.app.AppCompatActivity
 import androidx.cardview.widget.CardView
+import com.google.android.material.button.MaterialButton
 import com.okstore.increasewatchtimeto4000hr.R
 import com.okstore.increasewatchtimeto4000hr.WatchHourActivity
 import com.okstore.increasewatchtimeto4000hr.utils.showProgressDialog
 import java.util.regex.Pattern
 
 class DashboardActivity : AppCompatActivity() {
+
+    val nextButton : MaterialButton
+        get() = findViewById(R.id.nextBtn)
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -21,7 +25,7 @@ class DashboardActivity : AppCompatActivity() {
         val search = findViewById<EditText>(R.id.searchET)
         val c5 = findViewById<CardView>(R.id.card5)
 
-        c5.setOnClickListener {
+        nextButton.setOnClickListener {
             val youtubeUrl = search.text.toString()
             val videoId = extractYouTubeVideoId(youtubeUrl)
 

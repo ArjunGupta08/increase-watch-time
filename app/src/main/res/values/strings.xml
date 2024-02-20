@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">increase watch time to 4000 hr</string>
+
+    // splash screen
+    <string name="welcome">Increase watch time</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
 </resources>
