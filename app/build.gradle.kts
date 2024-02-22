@@ -49,7 +49,10 @@ dependencies {
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
 
-    implementation ("com.google.android.exoplayer:exoplayer:2.19.1")
+    // youtube play multiple
+    implementation ("com.pierfrancescosoffritti.androidyoutubeplayer:core:12.1.0")
+//    implementation ("com.github.flipkart-incubator:android-inline-youtube-view:1.0.3")
+
     // glide image view
     implementation("com.github.bumptech.glide:glide:4.16.0")
 }
