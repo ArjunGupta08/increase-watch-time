@@ -9,10 +9,6 @@ import androidx.fragment.app.Fragment
 import com.bumptech.glide.Glide
 import com.okstore.increasewatchtimeto4000hr.databinding.ActivityWatchHourBinding
 import com.okstore.increasewatchtimeto4000hr.windowFrags.WindowFragment2
-import com.pierfrancescosoffritti.androidyoutubeplayer.core.player.YouTubePlayer
-import com.pierfrancescosoffritti.androidyoutubeplayer.core.player.listeners.AbstractYouTubePlayerListener
-import com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
-
 
 class WatchHourActivity : AppCompatActivity() {
     private lateinit var binding : ActivityWatchHourBinding
