@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">increase watch time to 4000 hr</string>
+    <string name="app_name">Youtube View</string>
 
     // splash screen
     <string name="welcome">Increase watch time</string>
